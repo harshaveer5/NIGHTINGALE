@@ -1,0 +1,8 @@
+{
+  "patient_count": 11,
+  "document_count": 36,
+  "patients_json": "backend/data/patients.json",
+  "patient_pdf_directory": "backend/data/patients",
+  "report_pdf_directory": "backend/data/reports",
+  "notice": "All records, names, dates, results, histories, and reports are fictional synthetic data."
+}

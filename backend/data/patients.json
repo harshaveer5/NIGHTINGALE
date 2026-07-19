@@ -1,0 +1,342 @@
+[
+  {
+    "patient_name": "Mira Solen",
+    "age": 29,
+    "gender": "Female",
+    "medical_history": "No major chronic conditions. Seasonal allergic rhinitis during spring. No surgeries. No known drug allergies.",
+    "documents": [
+      {
+        "document_type": "Annual Health Checkup",
+        "document_title": "Annual Wellness Visit",
+        "document_text": "Patient Name: Mira Solen\n\nDate: 2025-02-18\n\nReason for Visit:\nRoutine annual preventive health checkup.\n\nVitals:\nBlood Pressure: 112/72 mmHg\nHeart Rate: 68 bpm\nRespiratory Rate: 14 breaths/min\nBody Mass Index: 22.4 kg/m2\n\nAssessment:\nGeneral examination is unremarkable. No active complaints. Sleep, appetite, and activity level are normal.\n\nPlan:\nContinue balanced diet and regular exercise. Maintain annual preventive visits and age-appropriate screening.",
+        "file_name": "mira_solen_01_annual_wellness_visit.pdf",
+        "file_path": "backend/data/reports/mira_solen_01_annual_wellness_visit.pdf"
+      },
+      {
+        "document_type": "Complete Blood Count (CBC)",
+        "document_title": "CBC Report",
+        "document_text": "Patient Name: Mira Solen\n\nDate: 2025-02-18\n\nHemoglobin: 13.6 g/dL\nWBC Count: 6900 cells/uL\nPlatelet Count: 274000 cells/uL\nRBC Count: 4.52 million/uL\nMean Corpuscular Volume: 88 fL\n\nInterpretation:\nCBC values are within normal limits. No evidence of anemia, leukocytosis, or thrombocytopenia.",
+        "file_name": "mira_solen_02_cbc_report.pdf",
+        "file_path": "backend/data/reports/mira_solen_02_cbc_report.pdf"
+      },
+      {
+        "document_type": "Lipid Profile",
+        "document_title": "Preventive Lipid Panel",
+        "document_text": "Patient Name: Mira Solen\n\nDate: 2025-02-18\n\nTotal Cholesterol: 172 mg/dL\nLDL Cholesterol: 96 mg/dL\nHDL Cholesterol: 58 mg/dL\nTriglycerides: 91 mg/dL\n\nInterpretation:\nLipid profile is within desirable range. Continue heart-healthy diet and physical activity.",
+        "file_name": "mira_solen_03_preventive_lipid_panel.pdf",
+        "file_path": "backend/data/reports/mira_solen_03_preventive_lipid_panel.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Darian Holt",
+    "age": 61,
+    "gender": "Male",
+    "medical_history": "Hypertension for 9 years and high cholesterol for 5 years. Former smoker. Family history of coronary artery disease. No known drug allergies.",
+    "documents": [
+      {
+        "document_type": "Blood Pressure Follow-up",
+        "document_title": "Hypertension Follow-up Visit",
+        "document_text": "Patient Name: Darian Holt\n\nDate: 2025-03-06\n\nHome Blood Pressure Log:\nAverage Morning Reading: 136/84 mmHg\nAverage Evening Reading: 132/82 mmHg\nHighest Reading: 148/88 mmHg\n\nCurrent Medication:\nAmlodipine 5 mg once daily\nLosartan 50 mg once daily\n\nAssessment:\nBlood pressure is mildly above target but improved compared with prior visit. No chest pain, shortness of breath, or ankle swelling reported.\n\nPlan:\nContinue current medications. Reduce dietary sodium. Repeat blood pressure review in 6 weeks.",
+        "file_name": "darian_holt_01_hypertension_follow_up_visit.pdf",
+        "file_path": "backend/data/reports/darian_holt_01_hypertension_follow_up_visit.pdf"
+      },
+      {
+        "document_type": "Lipid Profile",
+        "document_title": "Cholesterol Monitoring Report",
+        "document_text": "Patient Name: Darian Holt\n\nDate: 2025-03-06\n\nTotal Cholesterol: 224 mg/dL\nLDL Cholesterol: 146 mg/dL\nHDL Cholesterol: 42 mg/dL\nTriglycerides: 178 mg/dL\n\nInterpretation:\nLDL cholesterol and triglycerides remain elevated. Medication adherence and diet counseling reviewed.",
+        "file_name": "darian_holt_02_cholesterol_monitoring_report.pdf",
+        "file_path": "backend/data/reports/darian_holt_02_cholesterol_monitoring_report.pdf"
+      },
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Cardiometabolic Prescription",
+        "document_text": "Patient Name: Darian Holt\n\nDate: 2025-03-06\n\nMedication:\n* Amlodipine 5 mg once daily in the morning\n* Losartan 50 mg once daily in the evening\n* Atorvastatin 20 mg once nightly\n\nInstructions:\nCheck blood pressure at home three times per week. Avoid missed statin doses. Follow up after 6 weeks with repeat lipid panel in 3 months.",
+        "file_name": "darian_holt_03_cardiometabolic_prescription.pdf",
+        "file_path": "backend/data/reports/darian_holt_03_cardiometabolic_prescription.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Elena Maris",
+    "age": 48,
+    "gender": "Female",
+    "medical_history": "Type 2 Diabetes for 6 years and hypothyroidism for 3 years. History of gestational diabetes. No diabetic kidney disease documented.",
+    "documents": [
+      {
+        "document_type": "Diabetes Monitoring Report",
+        "document_title": "Quarterly Diabetes Review",
+        "document_text": "Patient Name: Elena Maris\n\nDate: 2025-04-11\n\nFasting Blood Glucose: 142 mg/dL\nPostprandial Glucose: 196 mg/dL\nHbA1c: 7.4%\nUrine Microalbumin: 18 mg/g creatinine\n\nInterpretation:\nGlycemic control is above target. Kidney screening is within acceptable range. Diet consistency and medication timing discussed.",
+        "file_name": "elena_maris_01_quarterly_diabetes_review.pdf",
+        "file_path": "backend/data/reports/elena_maris_01_quarterly_diabetes_review.pdf"
+      },
+      {
+        "document_type": "Thyroid Report",
+        "document_title": "Thyroid Function Test",
+        "document_text": "Patient Name: Elena Maris\n\nDate: 2025-04-11\n\nTSH: 5.8 mIU/L\nFree T4: 0.82 ng/dL\nFree T3: 2.7 pg/mL\n\nInterpretation:\nTSH is mildly elevated, suggesting under-replacement of thyroid hormone. Symptoms include fatigue and dry skin.",
+        "file_name": "elena_maris_02_thyroid_function_test.pdf",
+        "file_path": "backend/data/reports/elena_maris_02_thyroid_function_test.pdf"
+      },
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Diabetes and Thyroid Prescription",
+        "document_text": "Patient Name: Elena Maris\n\nDate: 2025-04-11\n\nMedication:\n* Metformin extended release 1000 mg once daily with dinner\n* Sitagliptin 100 mg once daily\n* Levothyroxine 75 mcg once daily before breakfast\n\nInstructions:\nTake levothyroxine on an empty stomach and separate from calcium or iron supplements by 4 hours. Repeat HbA1c and TSH in 3 months.",
+        "file_name": "elena_maris_03_diabetes_and_thyroid_prescription.pdf",
+        "file_path": "backend/data/reports/elena_maris_03_diabetes_and_thyroid_prescription.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Jonah Reed",
+    "age": 22,
+    "gender": "Male",
+    "medical_history": "Mild intermittent asthma since childhood. Uses rescue inhaler during exercise or viral illness. No hospitalizations in the past 5 years.",
+    "documents": [
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Asthma Medication Renewal",
+        "document_text": "Patient Name: Jonah Reed\n\nDate: 2025-05-02\n\nMedication:\n* Albuterol inhaler 90 mcg, 2 puffs as needed for wheezing\n* Fluticasone inhaler 100 mcg, 1 puff twice daily during allergy season\n\nInstructions:\nUse spacer with inhaler. Seek urgent care if rescue inhaler is needed more often than every 4 hours or symptoms do not improve.",
+        "file_name": "jonah_reed_01_asthma_medication_renewal.pdf",
+        "file_path": "backend/data/reports/jonah_reed_01_asthma_medication_renewal.pdf"
+      },
+      {
+        "document_type": "Radiology Report Summary",
+        "document_title": "Chest X-ray Summary",
+        "document_text": "Patient Name: Jonah Reed\n\nDate: 2025-05-02\n\nStudy:\nChest radiograph, two views.\n\nFindings:\nLungs are clear. No focal infiltrate, pleural effusion, or pneumothorax. Cardiomediastinal silhouette is normal in size.\n\nImpression:\nNo acute cardiopulmonary abnormality.",
+        "file_name": "jonah_reed_02_chest_x_ray_summary.pdf",
+        "file_path": "backend/data/reports/jonah_reed_02_chest_x_ray_summary.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Leona Voss",
+    "age": 76,
+    "gender": "Female",
+    "medical_history": "Elderly patient with hypertension, Type 2 Diabetes, chronic kidney disease stage 3a, and osteoarthritis. Prior uncomplicated cataract surgery.",
+    "documents": [
+      {
+        "document_type": "Discharge Summary",
+        "document_title": "Observation Stay for Dehydration",
+        "document_text": "Patient Name: Leona Voss\n\nDate: 2025-01-27\n\nAdmission Reason:\nLightheadedness and reduced oral intake after 3 days of viral gastroenteritis symptoms.\n\nHospital Course:\nPatient received intravenous fluids and electrolyte monitoring. Blood pressure medications were temporarily held during observation. Symptoms improved and oral intake was tolerated.\n\nDischarge Diagnoses:\n* Mild dehydration, resolved\n* Hypertension\n* Type 2 Diabetes\n* Chronic kidney disease stage 3a\n\nDischarge Instructions:\nResume home medications except hydrochlorothiazide until primary care review. Maintain hydration and return for reduced urine output, confusion, or persistent vomiting.",
+        "file_name": "leona_voss_01_observation_stay_for_dehydration.pdf",
+        "file_path": "backend/data/reports/leona_voss_01_observation_stay_for_dehydration.pdf"
+      },
+      {
+        "document_type": "Kidney Function Report",
+        "document_title": "Renal Panel",
+        "document_text": "Patient Name: Leona Voss\n\nDate: 2025-01-27\n\nSerum Creatinine: 1.34 mg/dL\nBlood Urea Nitrogen: 31 mg/dL\nEstimated GFR: 43 mL/min/1.73m2\nSodium: 137 mmol/L\nPotassium: 4.6 mmol/L\n\nInterpretation:\nKidney function is consistent with chronic kidney disease stage 3a. Mild prerenal azotemia likely related to dehydration.",
+        "file_name": "leona_voss_02_renal_panel.pdf",
+        "file_path": "backend/data/reports/leona_voss_02_renal_panel.pdf"
+      },
+      {
+        "document_type": "Diabetes Monitoring Report",
+        "document_title": "Inpatient Glucose Review",
+        "document_text": "Patient Name: Leona Voss\n\nDate: 2025-01-27\n\nFasting Blood Glucose: 128 mg/dL\nRandom Glucose Range: 118-184 mg/dL\nHbA1c: 7.0%\n\nInterpretation:\nDiabetes is moderately controlled for age and comorbidity profile. No hypoglycemia recorded during observation stay.",
+        "file_name": "leona_voss_03_inpatient_glucose_review.pdf",
+        "file_path": "backend/data/reports/leona_voss_03_inpatient_glucose_review.pdf"
+      },
+      {
+        "document_type": "Blood Pressure Follow-up",
+        "document_title": "Post-discharge Blood Pressure Plan",
+        "document_text": "Patient Name: Leona Voss\n\nDate: 2025-02-03\n\nClinic Blood Pressure: 124/76 mmHg\nStanding Blood Pressure: 118/72 mmHg\nHeart Rate: 74 bpm\n\nAssessment:\nBlood pressure is controlled after hydration improved. No recurrent dizziness.\n\nPlan:\nContinue losartan 25 mg once daily. Hold hydrochlorothiazide pending kidney function repeat in 2 weeks.",
+        "file_name": "leona_voss_04_post_discharge_blood_pressure_plan.pdf",
+        "file_path": "backend/data/reports/leona_voss_04_post_discharge_blood_pressure_plan.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Samira Kline",
+    "age": 34,
+    "gender": "Female",
+    "medical_history": "Hypothyroidism diagnosed 2 years ago. Mild iron deficiency anemia in the past, now improved. No known drug allergies.",
+    "documents": [
+      {
+        "document_type": "Thyroid Report",
+        "document_title": "Thyroid Monitoring Report",
+        "document_text": "Patient Name: Samira Kline\n\nDate: 2025-06-14\n\nTSH: 2.4 mIU/L\nFree T4: 1.12 ng/dL\nFree T3: 3.1 pg/mL\n\nInterpretation:\nThyroid function is within target range on current levothyroxine dose.",
+        "file_name": "samira_kline_01_thyroid_monitoring_report.pdf",
+        "file_path": "backend/data/reports/samira_kline_01_thyroid_monitoring_report.pdf"
+      },
+      {
+        "document_type": "Complete Blood Count (CBC)",
+        "document_title": "CBC and Anemia Follow-up",
+        "document_text": "Patient Name: Samira Kline\n\nDate: 2025-06-14\n\nHemoglobin: 12.2 g/dL\nWBC Count: 6200 cells/uL\nPlatelet Count: 312000 cells/uL\nMean Corpuscular Volume: 82 fL\nFerritin: 31 ng/mL\n\nInterpretation:\nHemoglobin is in low-normal range with improved iron stores. Continue iron-rich diet.",
+        "file_name": "samira_kline_02_cbc_and_anemia_follow_up.pdf",
+        "file_path": "backend/data/reports/samira_kline_02_cbc_and_anemia_follow_up.pdf"
+      },
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Thyroid Medication Renewal",
+        "document_text": "Patient Name: Samira Kline\n\nDate: 2025-06-14\n\nMedication:\n* Levothyroxine 50 mcg once daily before breakfast\n\nInstructions:\nContinue current dose. Repeat thyroid function test in 6 months or sooner if palpitations, weight change, or significant fatigue develops.",
+        "file_name": "samira_kline_03_thyroid_medication_renewal.pdf",
+        "file_path": "backend/data/reports/samira_kline_03_thyroid_medication_renewal.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Ronan Ives",
+    "age": 55,
+    "gender": "Male",
+    "medical_history": "Type 2 Diabetes, hypertension, high cholesterol, and fatty liver noted on prior imaging. Sedentary occupation. No known drug allergies.",
+    "documents": [
+      {
+        "document_type": "Diabetes Monitoring Report",
+        "document_title": "Diabetes Control Review",
+        "document_text": "Patient Name: Ronan Ives\n\nDate: 2025-07-09\n\nFasting Blood Glucose: 166 mg/dL\nPostprandial Glucose: 238 mg/dL\nHbA1c: 8.3%\nUrine Microalbumin: 42 mg/g creatinine\n\nInterpretation:\nDiabetes is uncontrolled and early albuminuria is present. Medication intensification and lifestyle plan recommended.",
+        "file_name": "ronan_ives_01_diabetes_control_review.pdf",
+        "file_path": "backend/data/reports/ronan_ives_01_diabetes_control_review.pdf"
+      },
+      {
+        "document_type": "Lipid Profile",
+        "document_title": "High Cholesterol Follow-up",
+        "document_text": "Patient Name: Ronan Ives\n\nDate: 2025-07-09\n\nTotal Cholesterol: 242 mg/dL\nLDL Cholesterol: 158 mg/dL\nHDL Cholesterol: 38 mg/dL\nTriglycerides: 246 mg/dL\n\nInterpretation:\nAtherogenic lipid pattern with elevated LDL and triglycerides. Cardiovascular risk reduction discussed.",
+        "file_name": "ronan_ives_02_high_cholesterol_follow_up.pdf",
+        "file_path": "backend/data/reports/ronan_ives_02_high_cholesterol_follow_up.pdf"
+      },
+      {
+        "document_type": "Kidney Function Report",
+        "document_title": "Renal Function and Electrolytes",
+        "document_text": "Patient Name: Ronan Ives\n\nDate: 2025-07-09\n\nSerum Creatinine: 1.02 mg/dL\nBlood Urea Nitrogen: 19 mg/dL\nEstimated GFR: 84 mL/min/1.73m2\nSodium: 139 mmol/L\nPotassium: 4.4 mmol/L\n\nInterpretation:\nOverall kidney filtration is preserved. Albuminuria on diabetes screening requires follow-up and blood pressure optimization.",
+        "file_name": "ronan_ives_03_renal_function_and_electrolytes.pdf",
+        "file_path": "backend/data/reports/ronan_ives_03_renal_function_and_electrolytes.pdf"
+      },
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Diabetes, Blood Pressure, and Lipid Prescription",
+        "document_text": "Patient Name: Ronan Ives\n\nDate: 2025-07-09\n\nMedication:\n* Metformin extended release 1000 mg twice daily with meals\n* Empagliflozin 10 mg once daily\n* Telmisartan 40 mg once daily\n* Rosuvastatin 20 mg once nightly\n\nInstructions:\nMonitor fasting glucose daily for 2 weeks. Maintain hydration while taking empagliflozin. Follow up in 4 weeks for tolerability review.",
+        "file_name": "ronan_ives_04_diabetes_blood_pressure_and_lipid_prescription.pdf",
+        "file_path": "backend/data/reports/ronan_ives_04_diabetes_blood_pressure_and_lipid_prescription.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Owen Calder",
+    "age": 67,
+    "gender": "Male",
+    "medical_history": "Chronic obstructive sleep apnea on nightly positive airway pressure therapy, osteoarthritis, and controlled hypertension. No diabetes.",
+    "documents": [
+      {
+        "document_type": "Blood Pressure Follow-up",
+        "document_title": "Controlled Hypertension Visit",
+        "document_text": "Patient Name: Owen Calder\n\nDate: 2025-09-10\n\nClinic Blood Pressure: 128/78 mmHg\nHome Average Blood Pressure: 126/76 mmHg\nHeart Rate: 70 bpm\n\nAssessment:\nHypertension is controlled on current therapy. Patient reports consistent use of positive airway pressure device and improved daytime alertness.\n\nPlan:\nContinue medication and home blood pressure checks twice weekly.",
+        "file_name": "owen_calder_01_controlled_hypertension_visit.pdf",
+        "file_path": "backend/data/reports/owen_calder_01_controlled_hypertension_visit.pdf"
+      },
+      {
+        "document_type": "Radiology Report Summary",
+        "document_title": "Right Knee X-ray Summary",
+        "document_text": "Patient Name: Owen Calder\n\nDate: 2025-09-10\n\nStudy:\nRight knee radiographs, weight-bearing views.\n\nFindings:\nModerate medial compartment joint space narrowing with small osteophytes. No acute fracture or dislocation. No large joint effusion.\n\nImpression:\nModerate osteoarthritic change of the right knee, greatest in the medial compartment.",
+        "file_name": "owen_calder_02_right_knee_x_ray_summary.pdf",
+        "file_path": "backend/data/reports/owen_calder_02_right_knee_x_ray_summary.pdf"
+      },
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Hypertension and Osteoarthritis Medication Record",
+        "document_text": "Patient Name: Owen Calder\n\nDate: 2025-09-10\n\nMedication:\n* Hydrochlorothiazide 12.5 mg once daily\n* Acetaminophen 500 mg every 8 hours as needed for knee pain\n* Topical diclofenac gel applied to right knee twice daily as needed\n\nInstructions:\nAvoid excessive oral anti-inflammatory medication. Continue low-impact strengthening exercises.",
+        "file_name": "owen_calder_03_hypertension_and_osteoarthritis_medication_record.pdf",
+        "file_path": "backend/data/reports/owen_calder_03_hypertension_and_osteoarthritis_medication_record.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Priya Lumen",
+    "age": 19,
+    "gender": "Female",
+    "medical_history": "Young adult with no chronic conditions. History of mild vitamin D insufficiency. No surgeries. No known drug allergies.",
+    "documents": [
+      {
+        "document_type": "Annual Health Checkup",
+        "document_title": "College Entry Health Review",
+        "document_text": "Patient Name: Priya Lumen\n\nDate: 2025-10-03\n\nReason for Visit:\nPre-college health review and preventive counseling.\n\nVitals:\nBlood Pressure: 108/68 mmHg\nHeart Rate: 72 bpm\nBody Mass Index: 20.8 kg/m2\n\nAssessment:\nHealthy young adult. Immunization record reviewed as complete by patient report. No exercise limitation or chronic symptoms.\n\nPlan:\nContinue balanced diet, regular physical activity, sleep hygiene, and routine preventive care.",
+        "file_name": "priya_lumen_01_college_entry_health_review.pdf",
+        "file_path": "backend/data/reports/priya_lumen_01_college_entry_health_review.pdf"
+      },
+      {
+        "document_type": "Complete Blood Count (CBC)",
+        "document_title": "Baseline CBC Report",
+        "document_text": "Patient Name: Priya Lumen\n\nDate: 2025-10-03\n\nHemoglobin: 12.9 g/dL\nWBC Count: 8100 cells/uL\nPlatelet Count: 286000 cells/uL\nRBC Count: 4.35 million/uL\nMean Corpuscular Volume: 86 fL\n\nInterpretation:\nCBC values are within normal limits.",
+        "file_name": "priya_lumen_02_baseline_cbc_report.pdf",
+        "file_path": "backend/data/reports/priya_lumen_02_baseline_cbc_report.pdf"
+      },
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Vitamin Supplement Recommendation",
+        "document_text": "Patient Name: Priya Lumen\n\nDate: 2025-10-03\n\nMedication:\n* Vitamin D3 1000 IU once daily with food for 12 weeks\n\nInstructions:\nMaintain safe sunlight exposure and dietary calcium intake. Repeat vitamin D level if symptoms or risk factors develop.",
+        "file_name": "priya_lumen_03_vitamin_supplement_recommendation.pdf",
+        "file_path": "backend/data/reports/priya_lumen_03_vitamin_supplement_recommendation.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Nolan Vey",
+    "age": 39,
+    "gender": "Male",
+    "medical_history": "Moderate persistent asthma and high cholesterol. Prior emergency visit for asthma flare 2 years ago. No intubation history.",
+    "documents": [
+      {
+        "document_type": "Radiology Report Summary",
+        "document_title": "Chest X-ray After Cough",
+        "document_text": "Patient Name: Nolan Vey\n\nDate: 2025-11-16\n\nStudy:\nChest radiograph, two views.\n\nFindings:\nMild hyperinflation. No focal consolidation, pleural effusion, or pneumothorax. Cardiac silhouette is not enlarged.\n\nImpression:\nMild hyperinflation compatible with reactive airway disease. No pneumonia.",
+        "file_name": "nolan_vey_01_chest_x_ray_after_cough.pdf",
+        "file_path": "backend/data/reports/nolan_vey_01_chest_x_ray_after_cough.pdf"
+      },
+      {
+        "document_type": "Lipid Profile",
+        "document_title": "Lipid Screening Report",
+        "document_text": "Patient Name: Nolan Vey\n\nDate: 2025-11-16\n\nTotal Cholesterol: 213 mg/dL\nLDL Cholesterol: 137 mg/dL\nHDL Cholesterol: 45 mg/dL\nTriglycerides: 154 mg/dL\n\nInterpretation:\nLDL cholesterol is above optimal range. Lifestyle therapy and repeat testing recommended.",
+        "file_name": "nolan_vey_02_lipid_screening_report.pdf",
+        "file_path": "backend/data/reports/nolan_vey_02_lipid_screening_report.pdf"
+      },
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Asthma Controller Prescription",
+        "document_text": "Patient Name: Nolan Vey\n\nDate: 2025-11-16\n\nMedication:\n* Budesonide-formoterol inhaler 160/4.5 mcg, 2 puffs twice daily\n* Albuterol inhaler 90 mcg, 2 puffs as needed for wheezing\n* Montelukast 10 mg once nightly\n\nInstructions:\nReview inhaler technique. Use controller medication daily even when symptoms are quiet. Follow up in 8 weeks.",
+        "file_name": "nolan_vey_03_asthma_controller_prescription.pdf",
+        "file_path": "backend/data/reports/nolan_vey_03_asthma_controller_prescription.pdf"
+      }
+    ]
+  },
+  {
+    "patient_name": "Anika Rao",
+    "age": 44,
+    "gender": "Female",
+    "medical_history": "Type 2 Diabetes for 4 years, borderline high cholesterol, mild iron deficiency anemia noted last year, and vitamin D insufficiency. No known drug allergies. No surgeries documented.",
+    "documents": [
+      {
+        "document_type": "Complete Blood Count (CBC)",
+        "document_title": "Previous CBC and Iron Follow-up",
+        "document_text": "Patient Name: Anika Rao\n\nDate: 2026-01-12\n\nHemoglobin: 11.4 g/dL\nWBC Count: 7600 cells/uL\nPlatelet Count: 438000 cells/uL\nRBC Count: 4.08 million/uL\nMean Corpuscular Volume: 78 fL\nFerritin: 18 ng/mL\n\nInterpretation:\nMild microcytic anemia is present. Platelet count is mildly elevated, which may be reactive in the setting of iron deficiency. White blood cell count is within range.\n\nDoctor Note:\nThe clinician documented fatigue and heavier menstrual bleeding as possible contributors. Iron-rich diet and repeat CBC were discussed.",
+        "file_name": "anika_rao_01_previous_cbc_and_iron_follow_up.pdf",
+        "file_path": "backend/data/reports/anika_rao_01_previous_cbc_and_iron_follow_up.pdf"
+      },
+      {
+        "document_type": "Complete Blood Count (CBC)",
+        "document_title": "Latest CBC and Iron Review",
+        "document_text": "Patient Name: Anika Rao\n\nDate: 2026-06-18\n\nHemoglobin: 12.1 g/dL\nWBC Count: 7100 cells/uL\nPlatelet Count: 392000 cells/uL\nRBC Count: 4.26 million/uL\nMean Corpuscular Volume: 82 fL\nFerritin: 29 ng/mL\n\nInterpretation:\nHemoglobin and ferritin improved compared with the January CBC. Platelet count decreased and is now near the upper end of the reference range. No leukocytosis is seen.\n\nImportant Numbers:\nHemoglobin improved from 11.4 to 12.1 g/dL. Ferritin improved from 18 to 29 ng/mL. Platelets decreased from 438000 to 392000 cells/uL.",
+        "file_name": "anika_rao_02_latest_cbc_and_iron_review.pdf",
+        "file_path": "backend/data/reports/anika_rao_02_latest_cbc_and_iron_review.pdf"
+      },
+      {
+        "document_type": "Diabetes Monitoring Report",
+        "document_title": "Latest Diabetes Control Report",
+        "document_text": "Patient Name: Anika Rao\n\nDate: 2026-06-18\n\nFasting Blood Glucose: 154 mg/dL\nPostprandial Glucose: 218 mg/dL\nHbA1c: 7.8%\nUrine Microalbumin: 24 mg/g creatinine\n\nInterpretation:\nGlucose control is above the usual target range. Urine microalbumin is within the normal to mildly increased range. The clinician wrote that meal timing and medication adherence should be reviewed.\n\nDoctor Note:\nThe doctor said this report is mainly about diabetes control and asked the patient to bring a home glucose log to the next appointment.",
+        "file_name": "anika_rao_03_latest_diabetes_control_report.pdf",
+        "file_path": "backend/data/reports/anika_rao_03_latest_diabetes_control_report.pdf"
+      },
+      {
+        "document_type": "Lipid Profile",
+        "document_title": "Latest Lipid and Vitamin Panel",
+        "document_text": "Patient Name: Anika Rao\n\nDate: 2026-06-18\n\nTotal Cholesterol: 218 mg/dL\nLDL Cholesterol: 142 mg/dL\nHDL Cholesterol: 44 mg/dL\nTriglycerides: 186 mg/dL\nVitamin D 25-OH: 21 ng/mL\n\nInterpretation:\nLDL cholesterol and triglycerides are elevated. Vitamin D remains insufficient. These results are relevant to cardiometabolic risk monitoring in a patient with diabetes.",
+        "file_name": "anika_rao_04_latest_lipid_and_vitamin_panel.pdf",
+        "file_path": "backend/data/reports/anika_rao_04_latest_lipid_and_vitamin_panel.pdf"
+      },
+      {
+        "document_type": "Prescription Record",
+        "document_title": "Diabetes Lipid and Iron Medication Plan",
+        "document_text": "Patient Name: Anika Rao\n\nDate: 2026-06-18\n\nMedication:\n* Metformin extended release 1000 mg once daily with dinner\n* Atorvastatin 10 mg once nightly\n* Ferrous sulfate 325 mg once daily with food\n* Vitamin D3 2000 IU once daily with food\n\nInstructions:\nTake iron with food if stomach upset occurs. Avoid taking iron at the same time as calcium supplements. Bring home glucose readings to the follow-up visit in 6 weeks.\n\nSafety Note:\nThis record lists medications that were documented in the uploaded report. It should not be used as a new prescription or treatment recommendation.",
+        "file_name": "anika_rao_05_diabetes_lipid_and_iron_medication_plan.pdf",
+        "file_path": "backend/data/reports/anika_rao_05_diabetes_lipid_and_iron_medication_plan.pdf"
+      }
+    ]
+  }
+]
