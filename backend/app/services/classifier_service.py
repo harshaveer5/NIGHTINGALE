@@ -6,8 +6,6 @@ from sentence_transformers import SentenceTransformer
 # Model
 # ==========================================================
 
-from sentence_transformers import SentenceTransformer
-
 _model = None
 
 
@@ -213,7 +211,7 @@ def _build_example_embeddings():
 
     for intent, phrases in INTENTS.items():
 
-        vectors = get_model.encode(
+        vectors = get_model().encode(
             phrases, convert_to_numpy=True, normalize_embeddings=True
         )
 
@@ -227,7 +225,18 @@ def _build_example_embeddings():
 
 
 # Build once at startup
-EXAMPLES, EMBEDDING_MATRIX = _build_example_embeddings()
+EXAMPLES = None
+EMBEDDING_MATRIX = None
+
+def get_classifier_index():
+    global EXAMPLES, EMBEDDING_MATRIX
+
+    if EXAMPLES is None or EMBEDDING_MATRIX is None:
+        logger.info("Building classifier embedding index...")
+        EXAMPLES, EMBEDDING_MATRIX = _build_example_embeddings()
+        logger.info("Classifier embedding index ready.")
+
+    return EXAMPLES, EMBEDDING_MATRIX
 
 
 # ==========================================================
@@ -242,7 +251,9 @@ def _find_best_matches(query_embedding: np.ndarray, top_k: int = 3):
     cosine similarity == dot product.
     """
 
-    scores = EMBEDDING_MATRIX @ query_embedding
+    examples, matrix = get_classifier_index()
+
+    scores = matrix @ query_embedding
 
     top_indices = np.argsort(scores)[::-1][:top_k]
 
@@ -252,8 +263,8 @@ def _find_best_matches(query_embedding: np.ndarray, top_k: int = 3):
 
         matches.append(
             {
-                "intent": EXAMPLES[idx]["intent"],
-                "example": EXAMPLES[idx]["text"],
+                "intent": examples[idx]["intent"],
+                "example": examples[idx]["text"],
                 "score": float(scores[idx]),
             }
         )
@@ -271,7 +282,7 @@ def classify_intent(question: str) -> dict:
     Classify a user question into one of the supported intents.
     """
 
-    query_embedding = get_model.encode(
+    query_embedding = get_model().encode(
         question, convert_to_numpy=True, normalize_embeddings=True
     )
 

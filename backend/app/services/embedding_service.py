@@ -25,7 +25,7 @@ def generate_embedding(text: str):
 
 
 def generate_embedding(text: str):
-    return get_model.encode(text).tolist()
+    return get_model().encode(text).tolist()
 
 
 def embed_document(db: Session, document_id: int, user_id: int):
