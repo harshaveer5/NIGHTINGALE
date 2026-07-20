@@ -18,6 +18,7 @@ from sqlalchemy.orm import Session, joinedload
 
 BACKEND_DIR = Path(__file__).resolve().parents[2]
 UPLOAD_DIR = BACKEND_DIR / "uploads"
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def validate_medical_record(db: Session, medical_record_id: int, user_id: int):
