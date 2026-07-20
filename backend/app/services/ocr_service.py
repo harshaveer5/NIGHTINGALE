@@ -1,7 +1,16 @@
 import easyocr
 from PIL import Image
 
-reader = easyocr.Reader(["en"], gpu=False)
+_reader = None
+
+
+def get_reader():
+    global _reader
+
+    if _reader is None:
+        _reader = easyocr.Reader(["en"], gpu=False)
+
+    return _reader
 
 
 def extract_text_from_image(image_path: str):
@@ -14,7 +23,7 @@ def extract_text_from_image(image_path: str):
 
     image.save(temp_path)
 
-    results = reader.readtext(temp_path, detail=0)
+    results = get_reader().readtext(temp_path, detail=0)
 
     text = "\n".join(results)
 

@@ -6,7 +6,20 @@ from sentence_transformers import SentenceTransformer
 # Model
 # ==========================================================
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+from sentence_transformers import SentenceTransformer
+
+_model = None
+
+
+def get_model():
+    global _model
+
+    if _model is None:
+        logger.info("Loading classifier model...")
+        _model = SentenceTransformer("all-MiniLM-L6-v2")
+        logger.info("Classifier model loaded.")
+
+    return _model
 
 # ==========================================================
 # Configuration
@@ -200,7 +213,7 @@ def _build_example_embeddings():
 
     for intent, phrases in INTENTS.items():
 
-        vectors = model.encode(
+        vectors = get_model.encode(
             phrases, convert_to_numpy=True, normalize_embeddings=True
         )
 
@@ -258,7 +271,7 @@ def classify_intent(question: str) -> dict:
     Classify a user question into one of the supported intents.
     """
 
-    query_embedding = model.encode(
+    query_embedding = get_model.encode(
         question, convert_to_numpy=True, normalize_embeddings=True
     )
 

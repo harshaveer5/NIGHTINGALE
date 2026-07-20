@@ -6,11 +6,26 @@ from fastapi import HTTPException
 from sentence_transformers import SentenceTransformer
 from sqlalchemy.orm import Session
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+_model = None
+
+
+def get_model():
+    global _model
+
+    if _model is None:
+        logger.info("Loading embedding model...")
+        _model = SentenceTransformer("all-MiniLM-L6-v2")
+        logger.info("Embedding model loaded.")
+
+    return _model
 
 
 def generate_embedding(text: str):
-    return model.encode(text).tolist()
+    return get_model().encode(text).tolist()
+
+
+def generate_embedding(text: str):
+    return get_model.encode(text).tolist()
 
 
 def embed_document(db: Session, document_id: int, user_id: int):
