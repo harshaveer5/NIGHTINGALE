@@ -3,8 +3,10 @@ from app.models.document import Document
 from app.models.document_chunk import DocumentChunk
 from app.services.qdrant_service import upload_chunk_embedding
 from fastapi import HTTPException
-from sentence_transformers import SentenceTransformer
 from sqlalchemy.orm import Session
+
+_model = None
+
 
 _model = None
 
@@ -13,15 +15,16 @@ def get_model():
     global _model
 
     if _model is None:
+        from sentence_transformers import SentenceTransformer
+
         logger.info("Loading embedding model...")
+
         _model = SentenceTransformer("all-MiniLM-L6-v2")
+
         logger.info("Embedding model loaded.")
 
     return _model
 
-
-def generate_embedding(text: str):
-    return get_model().encode(text).tolist()
 
 
 def generate_embedding(text: str):
