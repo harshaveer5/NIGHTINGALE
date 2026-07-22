@@ -8,7 +8,13 @@ def get_reader():
     global _reader
 
     if _reader is None:
-        _reader = easyocr.Reader(["en"], gpu=False)
+        import easyocr
+
+        logger.info("Loading OCR model...")
+
+        _reader = easyocr.Reader(["en"])
+
+        logger.info("OCR model loaded.")
 
     return _reader
 
