@@ -1,27 +1,56 @@
+from app.core.logging import logger
+
+logger.info("CHAT_SERVICE A - importing perf_counter")
 from time import perf_counter
 
+logger.info("CHAT_SERVICE B - importing config")
 from app.core.config import CHAT_RATE_LIMIT, CHAT_RATE_WINDOW
-from app.core.logging import logger
+
+logger.info("CHAT_SERVICE C - importing rate limiter")
 from app.core.rate_limiter import rate_limiter
+
+logger.info("CHAT_SERVICE D - importing rag_pipeline")
 from app.pipelines.rag_pipeline import run as rag_pipeline
+
+logger.info("CHAT_SERVICE E - importing cached_response_service")
 from app.services.cached_response_service import get_cached_response
+
+logger.info("CHAT_SERVICE F - importing chat_session_service")
 from app.services.chat_session_service import (
     get_recent_messages,
     save_message,
     validate_chat_session,
     get_or_create_latest_session,
 )
+
+logger.info("CHAT_SERVICE G - importing conversation_builder")
 from app.services.conversation_builder import build_conversation_context
+
+logger.info("CHAT_SERVICE H - importing conversation_state_service")
 from app.services.conversation_state_service import (
     build_conversation_state,
     build_structured_memory,
 )
+
+logger.info("CHAT_SERVICE I - importing execution_planner_service")
 from app.services.execution_planner_service import build_execution_plan
+
+logger.info("CHAT_SERVICE J - importing latency_service")
 from app.services.latency_service import LatencyTrace
+
+logger.info("CHAT_SERVICE K - importing query_rewriter_service")
 from app.services.query_rewriter_service import rewrite_question
+
+logger.info("CHAT_SERVICE L - importing router_service")
 from app.services.router_service import route_question
+
+logger.info("CHAT_SERVICE M - importing FastAPI dependencies")
 from fastapi import HTTPException
+
+logger.info("CHAT_SERVICE N - importing SQLAlchemy")
 from sqlalchemy.orm import Session
+
+logger.info("CHAT_SERVICE IMPORT COMPLETE")
 
 
 def persist_message(db: Session, session_id: int, role: str, content: str):
