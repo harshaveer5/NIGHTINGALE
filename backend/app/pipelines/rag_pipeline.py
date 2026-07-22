@@ -1,13 +1,33 @@
+from app.core.logging import logger
+
+logger.info("RAG A - importing contextmanager")
 from contextlib import contextmanager
 
+logger.info("RAG B - importing retrieval_pipeline")
 from app.pipelines.retrival_pipeline import run as retrieve
+
+logger.info("RAG C - importing context_builder")
 from app.services.context_builder import build_context
+
+logger.info("RAG D - importing conversation_state_service")
 from app.services.conversation_state_service import format_structured_section
+
+logger.info("RAG E - importing document_selector_service")
 from app.services.document_selector_service import get_document_chunks
+
+logger.info("RAG F - importing llm_service")
 from app.services.llm_service import generate_chat_answer
+
+logger.info("RAG G - importing patient_context_service")
 from app.services.patient_context_service import build_patient_context
+
+logger.info("RAG H - importing prompt_builder")
 from app.services.prompt_builder import build_prompt
+
+logger.info("RAG I - importing SQLAlchemy")
 from sqlalchemy.orm import Session
+
+logger.info("RAG IMPORT COMPLETE")
 
 
 @contextmanager
